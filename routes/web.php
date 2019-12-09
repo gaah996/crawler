@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('/', 'CrawlerController@index');
+// Route::get('/', 'CrawlerController@index');
+Route::get('/', function() {
+  return 'Hello world!';
+});
